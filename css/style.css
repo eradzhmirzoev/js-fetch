@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.lists-of-people {
+    padding-left: 35px;
+}
+
+li {
+    list-style-type: start;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.show-photo {
+    width: 50%;
+}
+
